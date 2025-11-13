@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/grishannp/static/css/main.fbab9db5.css",
+    "main.js": "/grishannp/static/js/main.52c37af8.js",
+    "static/js/453.9e285d54.chunk.js": "/grishannp/static/js/453.9e285d54.chunk.js",
+    "static/media/my-bg.jpg": "/grishannp/static/media/my-bg.931adee6dd02c4f4e293.jpg",
+    "index.html": "/grishannp/index.html",
+    "main.fbab9db5.css.map": "/grishannp/static/css/main.fbab9db5.css.map",
+    "main.52c37af8.js.map": "/grishannp/static/js/main.52c37af8.js.map",
+    "453.9e285d54.chunk.js.map": "/grishannp/static/js/453.9e285d54.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fbab9db5.css",
+    "static/js/main.52c37af8.js"
+  ]
+}
