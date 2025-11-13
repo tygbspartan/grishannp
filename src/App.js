@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import "./App.css";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="hero">
+      <div className="overlay"></div>
+      <div className="content">
+        <h1 className="name">Grishan Bajracharya</h1>
+        <p className="tagline">Just another guy building cool things.</p>
+        <div className="links">
+          <a
+            href="https://www.linkedin.com/in/grishan-bajracharya-b77a7b218/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaLinkedin />
+          </a>
+          <a
+            href="https://github.com/tygbspartan"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaGithub />
+          </a>
+        </div>
+      </div>
     </div>
   );
 }
-
-export default App;
